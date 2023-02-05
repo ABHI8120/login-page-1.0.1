@@ -1,0 +1,84 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400,300&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    
+ }
+ body{
+    height: 100%;
+    background:linear-gradient(90deg,#8200cd ,#b800c4);
+   
+}
+
+/* - Uses -- */
+    .flex{
+        display: flex;
+    }
+/* - End Uses -- */
+
+section{
+    text-align: center;
+}
+
+.box{
+    margin: 0 auto;
+    margin-top: 180px;
+    width: 635px;
+    height: 330px;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+}
+/* --imgs-- */
+img{
+    width: 250px;
+}
+/* --Right box-- */
+.right{
+    text-align: center;
+}
+/* input */
+input {
+    margin-left: 5px;
+    border: none;
+    padding: 3px;
+    background-color: #f4f8fb;
+  }
+
+/* Email */
+.loginbox,.passwordbox {
+    /* border: 1px solid; */
+    background-color: #f4f8fb;
+    width: 200px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-family: 'Robot';
+    /* margin-left: 11px; */
+  }
+
+
+/* == Button == */
+button {
+    background-color: #1fcc44;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+    border:#1fcc44;
+    border-radius: 20px;
+  }
+
+  .ptext{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 13px;
+  }
+  .color{
+    color: #1fcc44;
+  }
